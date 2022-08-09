@@ -32,7 +32,7 @@ try {
 
     $httpUserAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
 
-    if (!isset($_ENV['FILE_STORAGE_PATH']) || $_ENV['FILE_STORAGE_PATH'] === null) {
+    if (!isset($_ENV['FILE_STORAGE_PATH']) || $_ENV['FILE_STORAGE_PATH'] === '') {
         $storagePath = $basePath . '/storage';
     } else {
         $storagePath = $_ENV['FILE_STORAGE_PATH'];
@@ -45,7 +45,7 @@ try {
     $badgeLabel = $_GET['label'] ?? 'Profile views';
     $badgeMessageBackgroundFill = $_GET['color'] ?? 'blue';
     $badgeStyle = $_GET['style'] ?? 'flat';
-    if (!in_array($badgeStyle, ['flat', 'flat-square', 'plastic'])) {
+    if (!in_array($badgeStyle, ['flat', 'flat-square', 'plastic', 'for-the-badge'])) {
         $badgeStyle = 'flat';
     }
     $username = $_GET['username'] ?? '';

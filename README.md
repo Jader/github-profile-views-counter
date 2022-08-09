@@ -88,6 +88,7 @@ The following styles are available (`flat` is the default).
 | `flat` | ![](https://img.shields.io/static/v1?label=Profile+views&message=1234567890&color=007ec6&style=flat) |
 | `flat-square` | ![](https://img.shields.io/static/v1?label=Profile+views&message=1234567890&color=007ec6&style=flat-square) |
 | `plastic` | ![](https://img.shields.io/static/v1?label=Profile+views&message=1234567890&color=007ec6&style=plastic) |
+| `for-the-badge` | ![](https://img.shields.io/static/v1?label=Profile+views&message=1234567890&color=007ec6&style=for-the-badge) |
 
 ```markdown
 ![](https://komarev.com/ghpvc/?username=your-github-username&style=flat-square)
@@ -139,6 +140,10 @@ No. Only spending it. [Become a sponsor] if you want it to keep running & receiv
 
 - `GitHub Profile Views Counter` application is open-sourced software licensed under the [MIT license](LICENSE) by [Anton Komarev].
 - `Eye Octicon` hero image licensed under MIT license by [GitHub, Inc].
+
+## 🌟 Stargazers over time
+
+[![Stargazers over time](https://chart.yhype.me/github/repository-star/v1/MDEwOlJlcG9zaXRvcnkyNzg5Mjk4Njc=.svg)](https://yhype.me?utm_source=github&utm_medium=antonkomarev-github-profile-views-counter&utm_content=chart-repository-star-cumulative)
 
 [Anton Komarev]: https://komarev.com
 [GitHub, Inc]: https://github.com
